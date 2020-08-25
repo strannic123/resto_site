@@ -13,9 +13,9 @@ import './index.scss';
 const restoService = new RestoService();
 
 ReactDOM.render(
-    <Provider store={store}>
+    <Provider store = {store}>
         <ErrorBoundry>
-            <RestoServiceContext.Provider value={restoService}>
+            <RestoServiceContext.Provider value = {restoService}>
                 <Router>
                     <App/>
                 </Router>
