@@ -1,7 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import {deleteFromCart} from "../../actions";
-import WithRestoService from '../hoc';
+
 
 
 import './cart-table.scss';
